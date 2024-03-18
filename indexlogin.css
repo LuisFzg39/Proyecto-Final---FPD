@@ -1,0 +1,89 @@
+body {
+    background-image: url(img/loginwallpaper.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-body{
+    margin-top: 200px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.login-card {
+
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 425px;
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    margin-left: 400px;
+
+}
+
+.text_square{
+
+    font-family: "Roboto", sans-serif;
+    border-style: hidden;
+    margin-left: 40px;
+    font-size: 18px;
+    outline: none;
+    
+    
+
+}
+
+.text_line {
+
+    background-color: lightgray;
+    width: 325px;
+    height: 2px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+        
+
+}
+
+#line_margin{
+
+    margin-bottom: 30px;
+
+}
+
+.material-symbols-outlined {
+
+    margin-left: 50px;
+    color: gray;
+
+}
+
+a {
+
+    margin-left: 190px;
+
+}
+
+button {
+
+    background-color: darkblue;
+    color: white;
+    height: 50px;
+    width: 375px;
+    margin-top: 35px;
+    margin-left: 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    
+}
+#title-login{
+    padding-left: 110px;
+    padding-top: 30px;
+}
+
+.login-info{
+    padding-left: 40px;
+}
+
+#notienes-login {
+    padding-left: 110px;
+}
