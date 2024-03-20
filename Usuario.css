@@ -1,4 +1,7 @@
 body {
+    background-image: url(img/user-page-wallpaper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .main-body{

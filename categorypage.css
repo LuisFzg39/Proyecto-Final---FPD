@@ -9,6 +9,7 @@
     border-top: solid 2px black;
     height: 320px;
     width: 100%;
+    display: flex;
 
 }
 
@@ -25,8 +26,38 @@
 
 }
 
+.carousel {
+
+    height: 300px;
+    width: 500px;
+    display: flex;
+    
+
+}
+
+#carousel-biblio{
+
+margin-left: 34%;
+margin-top: 1%;
+
+}
+
+#carousel-juegos{
+
+margin-left: 25%;
+
+}
+
+#carousel-cursos{
+
+margin-left: 24%;
+margin-top: 2%;
+
+}
+
 .extra-space {
 
     height: 35px;
 
 }
+

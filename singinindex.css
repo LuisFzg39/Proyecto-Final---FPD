@@ -3,11 +3,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.log-in {
+
+    margin-left: 100px;
+
+}
+
 .main-body{
     margin-top: 200px;
     align-items: center;
     margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+
 .iniciar-card {
 
     background-color: rgb(255, 255, 255);
