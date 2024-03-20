@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    margin-top: 200px;
+}
+
+.columna {
+    flex: 1;
+    padding: 20px;
+}
+
+#baldorsito {
+    margin-left: 60px;
+}
+
+#botonesdetail {
+    margin-left: 120px;
+}
+
+button {
+
+    background-color: darkblue;
+    color: white;
+    height: 50px;
+    width: 375px;
+    margin-top: 35px;
+    margin-left: 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    
+}
