@@ -1,0 +1,125 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.busqueda {
+
+    height: 30px;
+    width: 500px;
+    outline: none;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-size: 25px;
+
+}
+
+.lista {
+
+    margin-top: 35px;
+    
+
+}
+
+.desplegable {
+
+    height: 30px;
+    width: 100px;
+
+
+}
+
+.bar-buttons {
+
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.body1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    background-color: #00008bfe;
+    
+}
+
+.product {
+
+    background-color:white;
+    height: 450px;
+    width: 300px;
+    margin-left: 55px;
+    margin-top: 80px;
+    border-radius: 10px;
+
+}
+
+.text-container {
+
+    text-align: left;
+    margin-left: 25px;
+
+}
+
+.product-name {
+
+    cursor: pointer;
+    color: #00008bfe;
+    max-width: fit-content;
+    
+
+}
+
+.product-name:hover {
+
+    color: #4b4bd2;
+
+
+}
+
+.img {
+
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.course-img {
+
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 1.5rem;
+
+}
+
+.img-container {
+
+    text-align: center;
+
+}
+
+.price {
+
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+
+}
+
+.footer {
+
+    height: 60px;
+    background-color: #00008bfe;
+
+}
+

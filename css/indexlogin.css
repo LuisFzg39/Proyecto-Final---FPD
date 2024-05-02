@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/loginwallpaper.avif);
+    background-image: url(../img/loginwallpaper.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,6 +8,15 @@ body {
     align-items: center;
     margin-bottom: 100px;
 }
+
+.log-in {
+
+    margin-left: 840px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+
 .login-card {
 
     background-color: rgb(255, 255, 255);
