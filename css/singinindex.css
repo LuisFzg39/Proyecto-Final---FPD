@@ -25,48 +25,30 @@ body {
 .iniciar-card {
 
     background-color: rgb(255, 255, 255);
-    height: 700px;
+    height: 800px;
     width: 600px;
     border-radius: 15px;
     -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
     -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
     box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
-    margin-left: 400px;
-    margin-top: 200px;
+    margin-left: 460px;
+    margin-top: 160px;
 
 }
 
-.text_square{
-
-    font-family: "Roboto", sans-serif;
-    border-style: hidden;
-    margin-left: 40px;
-    font-size: 18px;
-    outline: none;
-    
-}
-
-.text_line {
-
-    background-color: lightgray;
-    width: 325px;
-    height: 2px;
-    margin-left: 50px;
-    margin-bottom: 5px;
-        
-
-}
-
-#line_margin{
-
-    margin-bottom: 30px;
-
-}
-
-.material-symbols-outlined {
+.label {
 
     margin-left: 50px;
-    color: gray;
+    margin-top: 30px;
+
+}
+
+.singin-input {
+
+    margin-left: 80px;
+    width: 250px;
+    height: 22px;
+    border-radius: 5px;
 
 }
 
@@ -77,41 +59,31 @@ button {
     height: 50px;
     width: 375px;
     margin-top: 35px;
-    margin-left: 25px;
+    margin-left: 110px;
     border-radius: 30px;
     font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
     
 }
-#title-login{
-    padding-left: 110px;
-    padding-top: 30px;
+
+.login-link {
+
+    margin-left: 250px;
+
 }
 
-.login-info{
-    padding-left: 40px;
+.login-label {
+
+    margin-left: 220px;
+    margin-top: 30px;
+
 }
 
-#notienes-login {
-    padding-left: 110px;
+
+#title {
+
+    margin-left: 175px;
+    padding-top: 20px;
 }
 
-#queloque {
-    margin-left: 100px;
-    margin-top: 60px;
-}
-
-#manitooo {
-    margin-left: 50px;
-}
-
-#manitolo {
-    margin-left: 50px;
-}
-
-#manita {
-    margin-left: 30px;
-}
-
-#sapito {
-    margin-left: 50px;
-}

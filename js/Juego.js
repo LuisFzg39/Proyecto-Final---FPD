@@ -8,7 +8,7 @@ class Juego {
         this.price = price
         this.description = description
         this.year = year
-        this.editorial = company
+        this.company = company
         this.img = img
 
     }
@@ -22,15 +22,15 @@ class Juego {
 
             <div class="img-container"> 
 
-                <img src="${this.img}" alt="Juego-img" class="img" onclick="seeDetail(${pos})">
+                <img src="${this.img}" alt="Juego-img" class="game-img" onclick="seeGameDetail(${pos})">
 
             <div/>
 
             <div class="text-container">
 
-                <h2 class="product-name" onclick="seeDetail(${pos})">${this.name}</h2>
+                <h2 class="product-name" onclick="seeGameDetail(${pos})">${this.name}</h2>
 
-                <p class="price" onclick="seeDetail(${pos})">${this.price}</p>
+                <p class="price" onclick="seeGameDetail(${pos})">${this.price}</p>
 
 
             </div>

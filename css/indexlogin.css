@@ -21,12 +21,12 @@ body {
 
     background-color: rgb(255, 255, 255);
     height: 550px;
-    width: 425px;
+    width: 480px;
     border-radius: 15px;
     -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
     -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
     box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
-    margin-left: 400px;
+    margin-left: 480px;
 
 }
 
@@ -34,8 +34,10 @@ body {
 
     font-family: "Roboto", sans-serif;
     border-style: hidden;
-    margin-left: 40px;
+    margin-left: 20px;
     font-size: 18px;
+    border-radius: 10px;
+    width: 280px;
     outline: none;
     
     
@@ -45,7 +47,7 @@ body {
 .text_line {
 
     background-color: lightgray;
-    width: 325px;
+    width: 360px;
     height: 2px;
     margin-left: 50px;
     margin-bottom: 5px;
@@ -82,10 +84,13 @@ button {
     margin-left: 25px;
     border-radius: 30px;
     font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
     
 }
 #title-login{
-    padding-left: 110px;
+
+    padding-left: 135px;
     padding-top: 30px;
 }
 

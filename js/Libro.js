@@ -22,15 +22,15 @@ class Libro {
 
             <div class="img-container">  
 
-                <img src="${this.img}" alt="Libro-img" class="img" onclick="seeDetail(${pos})">
+                <img src="${this.img}" alt="Libro-img" class="img" onclick="seeBookDetail(${pos})">
 
             <div/>
 
             <div class="text-container">
 
-                <h2 class="product-name" onclick="seeDetail(${pos})">${this.name}</h2>
+                <h2 class="product-name" onclick="seeBookDetail(${pos})">${this.name}</h2>
 
-                <p class="price" onclick="seeDetail(${pos})">${this.price}</p>
+                <p class="price" onclick="seeBookDetail(${pos})">${this.price}</p>
 
 
             </div>

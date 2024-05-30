@@ -3,38 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-.busqueda {
-
-    height: 30px;
-    width: 500px;
-    outline: none;
-    margin-left: 30px;
-    margin-top: 35px;
-    font-size: 25px;
-
-}
-
-.lista {
-
-    margin-top: 35px;
-    
-
-}
-
-.desplegable {
-
-    height: 30px;
-    width: 100px;
-
+    background-color: #00008bfe;
 
 }
 
 .bar-buttons {
 
-    margin-left: 100px;
+    margin-left: 620px;
     margin-top: 30px;
     display: flex;
 
@@ -47,6 +22,14 @@ body {
     margin-top: 80px;
     background-color: #00008bfe;
     
+}
+
+.material-symbols-outlined {
+
+    font-size: 50px;
+    margin-right: 30px;
+    color: #00008bfe;
+
 }
 
 .product {
@@ -88,6 +71,18 @@ body {
     width: 200px;
     height: auto;
     cursor: pointer;
+    text-align: center;
+    
+
+}
+
+.game-img {
+
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 10%;
+
 
 }
 

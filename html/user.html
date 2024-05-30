@@ -26,41 +26,88 @@
 
         <div class="bar-buttons">
 
-            <a href="index.html" class="log-in">Volver</a>
+            <a href="categorypage.html" class="log-in">Volver</a>
 
         </div>
 
     </header>
 
-    <div class="usuario-card">
+    <div class="user-card">
 
-        <h1 id="epalee">Informacion de usuario</h1>
+        <h1 id="title">Mi Perfil</h1>
 
-        <h2 id="manitooo">Nombre(s)</h2>
+        <div class="profile-container">
 
-        <input id="sapito" type="text">
-        <a id="editarusuario" href="Editar">Editar</a>
-        <img src="https://www.google.es/url?sa=i&url=https%3A%2F%2Ficones.pro%2Fes%2Fsimbolo-masculino-icono-de-usuario-gris%2F&psig=AOvVaw13A8RhOczQM4j5MQJ1--rv&ust=1710991994482000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNiHioP0gYUDFQAAAAAdAAAAABAD" alt="">
+            <div>
 
-        <h2 id="gas">Apellido(s)</h2>
+                <div class="user-info">
 
-        <input id="sapito" type="text">
-        <a id="editarusuario" href="Editar1">Editar</a>
-        <h2 id="manitooo">Correo Electrónico</h2>
-        
-        <input id="sapito" type="text">
+                    <div class="info-area">
 
-        <h2 id="manitooo"> Cambiar contraseña</h2>
+                        <h2 class="label">Nombre(s)</h2>
 
-        <input id="sapito" type="password">
+                        <div class="info-shade">
 
-        <h2 id="manitolo">Confirmar Contraseña Nueva</h2>
+                            <h2 id="name" class="information"></h2>
 
-        <input id="sapito" type="password">
+                        </div>
 
-        <button id="manita">Guardar</button>
+                    </div>
+
+                    <div class="info-area">
+
+                        <h2 class="label">Apellido(s)</h2>
+
+                        <div class="info-shade">
+
+                            <h2 id="last-name" class="information"></h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="info-area">
+
+                        <h2 class="label">Contraseña</h2>
+
+                        <div class="info-shade">
+
+                            <h2 id="password" class="information"></h2>
+
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="info-area" id="email-container">
+
+                    <h2 class="label">Correo Electrónico</h2>
+
+                    <div class="info-shade">
+
+                        <h2 id="email" class="information"></h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="pic-container">
+
+                <img src="../img/img-creador1.png" alt="profile-pic" class="profile-pic">
+
+            </div>
+
+        </div>
+
+        <button onclick="closeSession()">Cerrar Sesión</button>
 
     </div>
+
+    <script src="../js/user.js"></script>
     
 </body>
 </html>

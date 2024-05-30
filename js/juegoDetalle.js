@@ -1,5 +1,14 @@
+const localStorage = window.localStorage
 const params = new URLSearchParams(window.location.search)
 const idFromUrl = params.get('id')
+let juegos = []
+let games = []
+
+async function getGameData() {
+    const response = await fetch("https://raw.githubusercontent.com/LuisFzg39/API-Proyecto/main/juegos.json")
+    juegos = await response.json()
+    createView()
+}
 
 function searchGame(){
     let juego = null
@@ -39,4 +48,55 @@ function createView() {
     }
 }
 
-createView()
+function addFavorite() {
+
+    const juego = searchGame()
+
+    const loggedUserString = localStorage.getItem("LOGGED-USER")
+    const usersListString = localStorage.getItem("USERS")
+
+    if (loggedUserString && juego) {
+        let loggedUser = JSON.parse(loggedUserString)
+        let usersList = JSON.parse(usersListString)
+
+        
+        if (!loggedUser.games) {
+            loggedUser.games = []
+        }
+
+        
+        let alreadyIngames = false;
+        for (let i = 0; i < loggedUser.games.length; i++) {
+            if (loggedUser.games[i].id === juego.id) {
+                alreadyIngames = true
+                break
+            }
+        }
+
+        for (let i = 0; i < usersList.length; i++) {
+            if (usersList[i].email === loggedUser.email) {
+                usersList[i] = loggedUser
+                break
+            }
+        }
+
+        if (!alreadyIngames) { 
+            loggedUser.games.push(juego)
+            localStorage.setItem("LOGGED-USER", JSON.stringify(loggedUser))
+            localStorage.setItem("USERS", JSON.stringify(usersList))
+            alert('Juego añadido a favoritos')
+
+        } else {
+
+            alert('El juego ya esta en favoritos')
+
+        }
+
+    } else {
+
+        alert('Usuario sin registrar o juego no encontrado')
+
+    }
+}
+
+getGameData()

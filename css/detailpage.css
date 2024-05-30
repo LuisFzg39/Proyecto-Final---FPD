@@ -68,6 +68,18 @@ body {
 
 }
 
+.img-juego {
+
+    height: 500px;
+    max-width: 650px;
+    width: auto;
+    text-align: center;
+    margin-top: 11%;
+
+
+
+}
+
 
 
 #description {
@@ -95,5 +107,6 @@ button {
     margin-left: 25px;
     border-radius: 30px;
     font-size: 18px;
+    cursor: pointer;
     
 }

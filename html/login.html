@@ -46,7 +46,7 @@
                 <span class="material-symbols-outlined">
                     person
                 </span>
-                <input type="text" name="user_name" class="text_square"  placeholder="Escribe tu correo">
+                <input type="text" name="email" class="text_square" id="email"  placeholder="Escribe tu correo">
                 <div class="text_line" id="line_margin"></div>
     
             </div>
@@ -56,18 +56,21 @@
                 <span class="material-symbols-outlined">
                     lock
                 </span>
-                <input type="password" name="password" class="text_square" placeholder="Escribe tu contraseña">
+                <input type="password" name="password" class="text_square" id="password" placeholder="Escribe tu contraseña">
                 <div class="text_line"></div>
     
             </div>
     
             <a href="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DDesktop">¿Olvidaste tu contraseña?</a>
     
-            <button>Iniciar sesion</button>
+            <button onclick="login()">Iniciar sesion</button>
 
             <p id="notienes-login">¿No tienes una cuenta?</p>
             <a href="singin.html">Da click aqui!</a>
 
     </div>
+
+    <script src="../js/login.js"></script>
+
 </body>
 </html>

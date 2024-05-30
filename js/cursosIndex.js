@@ -1,5 +1,12 @@
 let container = document.getElementById("course-container")
 let listOfCourses = []
+let cursos = []
+
+async function getCourseData() {
+    const response = await fetch("https://raw.githubusercontent.com/LuisFzg39/API-Proyecto/main/cursos.json")
+    cursos = await response.json()
+    createView()
+}
 
 
 function renderView() {
@@ -24,7 +31,7 @@ function parseCourseData() {
 
 }
 
-function seeDetail(position) {
+function seeCourseDetail(position) {
 
     const userToUse = listOfCourses[position]
     window.location.href = "./cursoDetalle.html?id="+userToUse.id+"&name="+userToUse.name
@@ -36,5 +43,5 @@ function createView() {
     renderView()
 }
 
-createView() 
+getCourseData()
 
